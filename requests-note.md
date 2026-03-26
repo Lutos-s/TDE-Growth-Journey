@@ -40,3 +40,13 @@
 - 检查
 - network
 - Fetch/XHR
+
+- 接口包含：
+- URL + Headers(请求头) + 状态码 + 参数 + 请求方法 + 返回数据
+
+# GET 和 POST
+
+- Get不会改变服务器数据，只是获取数据
+- Get的params(参数)可以显示在URL上 即 ？后
+- POST会改变服务器数据，新增或修改内容
+- POST的params不会暴露在URL上
